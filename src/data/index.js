@@ -1,9 +1,9 @@
 export const images = [
-  "public/assets/images/img-1.jpg",
-  "public/assets/images/img-2.jpg",
-  "public/assets/images/img-3.jpg",
-  "public/assets/images/img-4.jpg",
-  "public/assets/images/img-5.jpg",
+  "/assets/images/img-1.jpg",
+  "/assets/images/img-2.jpg",
+  "/assets/images/img-3.jpg",
+  "/assets/images/img-4.jpg",
+  "/assets/images/img-5.jpg",
 ];
 
 export const flightOffers = [
