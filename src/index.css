@@ -14,7 +14,7 @@
     width: 100%;
     aspect-ratio: 1;
     border-radius: 50%;
-    background-image: url("public/assets/earth.jpg");
+    background-image: url("/assets/earth.jpg");
     background-repeat: repeat-x ;
     background-size: 10rem auto;
     box-shadow: inset 0 0 1rem #888, 0 0 1rem #888;
