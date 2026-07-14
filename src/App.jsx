@@ -35,7 +35,7 @@ function App() {
             <span className={`absolute h-[2px] w-full border border-dashed border-white left-0 top-1/2 -translate-y-1/2
           scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-right group-hover:delay-200 ${showModal && "scale-x-100" }`}/>
             <img
-              src="./assets/plane.png"
+              src="/assets/plane.png"
               alt="Plane Icon"
               className={`absolute -left-28 -top-5 -traslate-y-1/2 group-hover:left-20 group-hover:transition-all 
               group-hover:delay-500 duration-500 ${showModal && "transition-all !left-44 !scale-200 !opacity-0 !delay-[0s]"}`} />
@@ -50,14 +50,14 @@ function App() {
           <div className="centerChild flex-col gap-y-8 relative w-[730px] h-[600px] bg-white rounded-3xl">
             {/* Close button */}
             <button onClick={() => setShowModal(false)} className="absolute top-5 right-5 cursor-pointer hover:scale-110 transition-transform">
-              <img src="public/assets/cancel.png" alt="Cancel icon" width={25} />
+              <img src="/assets/cancel.png" alt="Cancel icon" width={25} />
             </button>
             {/* Moddal Heading */}
             <h1 className="centerChild gap-x-3 text-3xl font-semibold text-gray-800">Book your trip around the
             <div className="relative globeWrapper">
               <div className="globe"></div>
               <img
-              src="./assets/plane.png"
+              src="/assets/plane.png"
               alt="Plane Icon"
               className={`absolute right-52 top-[2px] -traslate-y-1/2 scale-200 opacity-40
               ${showModal && "!-right-1 transition-all !scale-100 delay-500 duration-500 opacity-100"}`} />
